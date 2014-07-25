@@ -1,0 +1,19 @@
+.list .column, .list .col {
+    float: left;
+    width: 230px;
+}
+.list li {
+    margin: 5px 15px;
+    vertical-align: top;
+}
+
+/*** This styles for demo only ***/
+
+code {
+    display: inline-block;
+    margin-left: 35px;
+    padding: 0 30px 20px;
+    background: #ddd;
+}
+
+/*********************/

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>jQuery.AutoColumnList</title>
+        <link rel="stylesheet" href="demo.css" type="text/css" media="all"/>
+        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+        <script type="text/javascript" src="../jquery.autocolumnlist.min.js"></script>
+        <script type="text/javascript">
+            (function($) {
+                $(function() {
+                    $('#demo1').autocolumnlist();
+                    $('#demo2').autocolumnlist({
+                        columns: 3,
+                        classname: 'col'
+                    });
+                })
+            })(jQuery)
+        </script>
+	</head>
+	<body>
+        <div class="list">
+            <h3>Numbered list:</h3>
+            <pre>
+<code>
+(function($) {
+    $(function() {
+        $('#demo1').autocolumnlist();
+    })
+})(jQuery)
+</code>
+            </pre>
+            <ol id="demo1">
+                <li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li>
+                <li>Aliquam tincidunt mauris eu risus.</li>
+                <li>Vestibulum auctor dapibus neque.</li>
+                <li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li>
+                <li>Aliquam tincidunt mauris eu risus.</li>
+                <li>Vestibulum auctor dapibus neque.</li>
+                <li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li>
+                <li>Aliquam tincidunt mauris eu risus.</li>
+                <li>Vestibulum auctor dapibus neque.</li>
+                <li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li>
+                <li>Aliquam tincidunt mauris eu risus.</li>
+                <li>Vestibulum auctor dapibus neque.</li>
+                <li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li>
+                <li>Aliquam tincidunt mauris eu risus.</li>
+                <li>Vestibulum auctor dapibus neque.</li>
+                <li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li>
+            </ol>
+        </div>
+        <br style="clear: both"/>
+        <div class="list">
+            <h3>Bulleted list:</h3>
+            <pre>
+<code>
+(function($) {
+    $(function() {
+        $('#demo2').autocolumnlist({
+            columns: 3,
+            classname: 'col'
+        });
+    })
+})(jQuery)
+</code>
+            </pre>
+            <ul id="demo2">
+                <li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li>
+                <li>Aliquam tincidunt mauris eu risus.</li>
+                <li>Vestibulum auctor dapibus neque.</li>
+                <li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li>
+                <li>Aliquam tincidunt mauris eu risus.</li>
+                <li>Vestibulum auctor dapibus neque.</li>
+                <li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li>
+                <li>Aliquam tincidunt mauris eu risus.</li>
+                <li>Vestibulum auctor dapibus neque.</li>
+                <li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li>
+                <li>Aliquam tincidunt mauris eu risus.</li>
+                <li>Vestibulum auctor dapibus neque.</li>
+                <li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li>
+                <li>Aliquam tincidunt mauris eu risus.</li>
+                <li>Vestibulum auctor dapibus neque.</li>
+                <li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li>
+            </ul>
+        </div>
+	</body>
+</html>
