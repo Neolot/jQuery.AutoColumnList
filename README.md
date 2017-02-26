@@ -1,16 +1,16 @@
 jQuery.AutoColumnList
 =====================
-Скрипт автоматически разбивает список на колонки.
+This simple jQuery-plugin divides lists into columns.
 
-##Параметры скрипта##
+##Options##
 
-* **columns** — количество колонок, на которое нужно разделить список
-* **classname** — класс, который нужно присвоить колонке, возможно указать несколько классов через пробел
-* **min** — минимальное количество элементов в столбце
+* **columns** — columns number (default: 4)
+* **classname** — column class, several classes need to divide the spaces (default: column)
+* **min** — minimal number of columns (default: 1)
 
-Если не указывать никаких параметров, то по-умолчанию количество колонок 4, класс — column, min — 1.
+Also you can specify options via data-parameters: data-columns, data-classname, data-min.
 
-##Пример вызова скрипта##
+##Example##
 
     <script type="text/javascript">
         (function($) {
@@ -24,9 +24,4 @@ jQuery.AutoColumnList
         })(jQuery)
     </script>
     
-Остальные примеры использования смотрите в папке demo.
-    
-Все оформление списков через стили, так что какими будут списки зависит только от ваших потребностей. Плагин одинаково 
-работает как с OL, так и с UL списками.  
-Тестировался в IE6+ и современных версиях Firefox, Opera, Chrome. Думаю, 
-что и в других версиях проблем быть не должно.
+Other examples look inside the DEMO folder.
