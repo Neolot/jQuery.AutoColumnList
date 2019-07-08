@@ -1,8 +1,8 @@
 jQuery.AutoColumnList
 =====================
-This simple jQuery-plugin divides lists into columns.
+This simple jQuery-plugin splits lists into columns.
 
-##Options##
+## Options ##
 
 * **columns** — columns number (default: 4)
 * **classname** — column class, several classes need to divide the spaces (default: column)
@@ -10,7 +10,7 @@ This simple jQuery-plugin divides lists into columns.
 
 Also you can specify options via data-parameters: data-columns, data-classname, data-min.
 
-##Example##
+## Example ##
 
     <script type="text/javascript">
         (function($) {
